@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tendencias Futuras</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lato', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+    header {
+      background-color: #1e1e1e;
+      padding: 1rem 2rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+    }
+    header h1 {
+      margin: 0;
+      color: #ffffff;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .card {
+      background-color: #222;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin: 0.5rem 0;
+      color: #ffffff;
+    }
+    .card p {
+      color: #ccc;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 2rem;
+    }
+
+    footer {
+      background-color: #2c2c2c;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tendencias Futuras</h1>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x250?text=Teléfono+1" alt="Teléfono 1">
+      <h3>Modelo A</h3>
+      <p>Descripción breve del teléfono A relacionado con tendencias futuras.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x250?text=Teléfono+2" alt="Teléfono 2">
+      <h3>Modelo B</h3>
+      <p>Descripción breve del teléfono B relacionado con tendencias futuras.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x250?text=Teléfono+3" alt="Teléfono 3">
+      <h3>Modelo C</h3>
+      <p>Descripción breve del teléfono C relacionado con tendencias futuras.</p>
+    </div>
+  </div>
+
+  <div style="padding: 2rem;">
+    <h2>Video relacionado</h2>
+    <iframe src="https://www.youtube.com/embed/RSccSY0d9ec" allowfullscreen></iframe>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Teléfonos Web | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
